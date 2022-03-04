@@ -1,16 +1,19 @@
-import Welcame from './components/header/Welcame';
+
 import {Header} from './components/header';
-import { Footer } from './components/footer.js';
+import {Footer} from './components/footer';
+import { Home } from './pages/home';
 import './App.css';
  
 function App() {
   return (
-    <div className="App">
-    <Header user='ilo'></Header>
-    <Welcame user='ilia chapidze' age={25}/>
+    <div className="App container">
+
+
+    <Header></Header>
+         <Home></Home>
      <Footer>Footer</Footer>
     
-    </div>
+    </div> 
   );
 }
 
